@@ -149,6 +149,9 @@ PRODUCT_PACKAGES += \
     tinymix \
     sound_trigger.primary.kona
 
+# Audio (Dobly Atmos)
+$(call inherit-product, hardware/motorola/dolby/setup.mk)
+
 PRODUCT_PACKAGES += \
     liba2dpoffload \
     libbatterylistener \
