@@ -6,21 +6,6 @@
 
 COMMON_PATH := device/motorola/sm8250-common
 
-# A/B
-AB_OTA_UPDATER := true
-
-AB_OTA_PARTITIONS += \
-    boot \
-    dtbo \
-    odm \
-    product \
-    system \
-    system_ext \
-    vbmeta \
-    vendor_boot \
-    vbmeta_system \
-    vendor
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
