@@ -3,3 +3,6 @@ persist.demo.hdmirotationlock=false
 
 # DPM
 persist.vendor.dpm.feature=11
+
+# QVA
+ro.vendor.qti.va_aosp.support=1
